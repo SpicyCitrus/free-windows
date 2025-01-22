@@ -1,0 +1,10 @@
+create a txt file then rename it to "checkarch.bat" remember to remove the .txt at the end of the file
+then enter the file and paste this in and save
+
+@ECHO OFF
+title Windows PC Architecture Checker by Minionguyjpro
+if "%PROCESSOR_ARCHITECTURE%"=="AMD64" echo Your PC architecture is 64-bit (AMD64)!
+if "%PROCESSOR_ARCHITECTURE%"=="IA64" echo Your PC architecture is 64-bit (IA64)!
+if "%PROCESSOR_ARCHITECTURE%"=="ARM64" echo Your PC architecture is 64-bit (ARM64)!
+if "%PROCESSOR_ARCHITECTURE%"=="x86" echo Your PC prchitecture is 32-bit (x86)!
+pause > nul
