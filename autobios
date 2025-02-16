@@ -1,0 +1,5 @@
+automaticly reboot into bios
+
+create a .bat file and put this inside, then save and run with admin
+
+shutdown /r /fw /t 0
